@@ -1,0 +1,43 @@
+.form-center{
+    margin: 5% 25% !important;
+    .form-control{
+      margin-bottom: 20% !important;
+    }
+}
+
+
+.card-search {
+    padding: 0% 8%;
+.cardx {
+  display: flex;
+  // border: 1px solid red;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+}
+@media only screen and (max-width: 990px) {
+  .cardx {
+    width: 138px;
+  }
+}
+
+@media only screen and (max-width: 573px) {
+  .cardx {
+    min-height: 220px;
+    height: auto;
+    width: 152px;
+  }
+}
+
+@media only screen and (max-width: 379px) {
+  .cardx {
+    width: 127px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+    .cardx {
+      width: 245px;
+    }
+}
